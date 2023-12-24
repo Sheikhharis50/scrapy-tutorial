@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "scrapy-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Sheikh Haris Zahid <sheikh.haris.zahid@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "scrapy_tutorial"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.11.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+ipython = "^8.19.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

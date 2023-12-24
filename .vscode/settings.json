@@ -1,0 +1,11 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "cSpell.words": [
+        "Daraz",
+        "getall",
+        "itemadapter",
+        "ROBOTSTXT"
+    ]
+}
